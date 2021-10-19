@@ -1,23 +1,23 @@
-English | [简体中文](https://github.com/Rannie/flui/blob/master/README-zh_CN.md)
+English | [简体中文](https://github.com/datoit/datoui/blob/master/README-zh_CN.md)
 
 <br />
 <p align="center">
-    <a href="https://flui.xin">
+    <a href="https://flui.datoit.com">
         <img width="200" src="https://abtfun.oss-cn-beijing.aliyuncs.com/img/2019-12-18-Artboard.png">
     </a>
 </p>
 
-<h1 align="center">FLUI</h1>
+<h1 align="center">DATOUI</h1>
 
 <div align="center">
 <p>A powerful UI framework for Google Flutter <a href="https://github.com/Rannie/Rannie.github.io/raw/master/app-release-0-9-2.apk">Demo apk</a></p>
 
 
-[![pub package](https://img.shields.io/pub/v/flui.svg)](https://pub.dev/packages/flui) 
-[![CI Status](https://github.com/rannie/flui/workflows/test/badge.svg)](https://github.com/Rannie/flui/actions) 
-[![Documentation](https://img.shields.io/badge/read_the-docs-2196f3.svg)](https://www.flui.xin/en/widgets/button.html) 
-[![GitHub stars](https://img.shields.io/github/stars/Rannie/flui)](https://github.com/Rannie/flui/stargazers) 
-[![GitHub forks](https://img.shields.io/github/forks/Rannie/flui.svg)](https://github.com/Rannie/flui) 
+[![pub package](https://img.shields.io/pub/v/flui.svg)](https://pub.dev/packages/flui)
+[![CI Status](https://github.com/rannie/flui/workflows/test/badge.svg)](https://github.com/Rannie/flui/actions)
+[![Documentation](https://img.shields.io/badge/read_the-docs-2196f3.svg)](https://flui.datoit.com/en/widgets/button.html)
+[![GitHub stars](https://img.shields.io/github/stars/Rannie/flui)](https://github.com/Rannie/flui/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Rannie/flui.svg)](https://github.com/Rannie/flui)
 [![GitHub license](https://img.shields.io/github/license/Rannie/flui.svg)](https://github.com/Rannie/flui/blob/master/LICENSE)
 
 
@@ -31,7 +31,7 @@ English | [简体中文](https://github.com/Rannie/flui/blob/master/README-zh_CN
 * Comprehensive usage examples and documentation
 * Fine-grained non-stylized widgets for different types of applications
 * Supports [Dark Mode](https://abtfun.oss-cn-beijing.aliyuncs.com/img/2019-12-27-dark_shots.png) and [RTL](https://abtfun.oss-cn-beijing.aliyuncs.com/img/2019-12-27-rtl_shots.png)
-* Dynamic rendering module -- [Dynamic](https://www.flui.xin/en/dynamic.html)
+* Dynamic rendering module -- [Dynamic](https://flui.datoit.com/en/dynamic.html)
 
 ## Compatibility
 
@@ -68,28 +68,28 @@ FLAppBarTitle(
 
 ## Widgets
 
-- [Button](https://www.flui.xin/en/widgets/button.html)
-- [Label](https://www.flui.xin/en/widgets/label.html)
-- [Toast](https://www.flui.xin/en/widgets/toast.html)
-- [Bubble](https://www.flui.xin/en/widgets/bubble.html)
-- [Input](https://www.flui.xin/en/widgets/input.html)
-- [Avatar](https://www.flui.xin/en/widgets/avatar.html)
-- [Badge](https://www.flui.xin/en/widgets/badge.html)
-- [Image](https://www.flui.xin/en/widgets/image.html)
-- [CountStepper](https://www.flui.xin/en/widgets/counter.html)
-- [AppBar](https://www.flui.xin/en/widgets/appbar.html)
-- [NoticeBar](https://www.flui.xin/en/widgets/notice-bar.html)
-- [Empty](https://www.flui.xin/en/widgets/empty.html)
-- [Skeleton](https://www.flui.xin/en/widgets/skeleton.html)
-- [BottomSheet](https://www.flui.xin/en/widgets/bottom-sheet.html)
-- [List](https://www.flui.xin/en/widgets/list.html)
-- [Theme](https://www.flui.xin/en/widgets/theme.html)
+- [Button](https://flui.datoit.com/en/widgets/button.html)
+- [Label](https://flui.datoit.com/en/widgets/label.html)
+- [Toast](https://flui.datoit.com/en/widgets/toast.html)
+- [Bubble](https://flui.datoit.com/en/widgets/bubble.html)
+- [Input](https://flui.datoit.com/en/widgets/input.html)
+- [Avatar](https://flui.datoit.com/en/widgets/avatar.html)
+- [Badge](https://flui.datoit.com/en/widgets/badge.html)
+- [Image](https://flui.datoit.com/en/widgets/image.html)
+- [CountStepper](https://flui.datoit.com/en/widgets/counter.html)
+- [AppBar](https://flui.datoit.com/en/widgets/appbar.html)
+- [NoticeBar](https://flui.datoit.com/en/widgets/notice-bar.html)
+- [Empty](https://flui.datoit.com/en/widgets/empty.html)
+- [Skeleton](https://flui.datoit.com/en/widgets/skeleton.html)
+- [BottomSheet](https://flui.datoit.com/en/widgets/bottom-sheet.html)
+- [List](https://flui.datoit.com/en/widgets/list.html)
+- [Theme](https://flui.datoit.com/en/widgets/theme.html)
 
 ## Dynamic
 
 ![dynamic-post](https://abtfun.oss-cn-beijing.aliyuncs.com/img/2020-03-11-dynamic-poster-1.png)
 
-**FLUI-Dynamic** is a dynamic rendering module that supports rendering widgets based on json strings or objects of a specified type. For more introduction and usage, please see [Dynamic](https://www.flui.xin/en/dynamic.html)
+**FLUI-Dynamic** is a dynamic rendering module that supports rendering widgets based on json strings or objects of a specified type. For more introduction and usage, please see [Dynamic](https://flui.datoit.com/en/dynamic.html)
 
 ``` dart
 Widget buildDynamicWidget() {
@@ -117,5 +117,3 @@ Principles:
 ## License
 
 MIT License
-
-

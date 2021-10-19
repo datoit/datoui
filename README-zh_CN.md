@@ -1,4 +1,4 @@
-[English](https://github.com/Rannie/flui/blob/master/README.md) | 简体中文
+[English](https://github.com/datoit/datoui/blob/master/README.md) | 简体中文
 
 <br />
 <p align="center">
@@ -11,13 +11,13 @@
 
 <div align="center">
 
-<p>一个 Google Flutter 的 UI 框架 <a href="https://www.flui.xin/app/flui.apk">示例 apk</a></p>
+<p>一个 Google Flutter 的 UI 框架 <a href="https://github.com/Rannie/Rannie.github.io/raw/master/app-release-0-9-2.apk">示例 apk</a></p>
 
-[![pub package](https://img.shields.io/pub/v/flui.svg)](https://pub.dev/packages/flui) 
-[![CI Status](https://github.com/rannie/flui/workflows/test/badge.svg)](https://github.com/Rannie/flui/actions) 
-[![Documentation](https://img.shields.io/badge/read_the-docs-2196f3.svg)](https://www.flui.xin/en/widgets/button.html) 
-[![GitHub stars](https://img.shields.io/github/stars/Rannie/flui)](https://github.com/Rannie/flui/stargazers) 
-[![GitHub forks](https://img.shields.io/github/forks/Rannie/flui.svg)](https://github.com/Rannie/flui) 
+[![pub package](https://img.shields.io/pub/v/flui.svg)](https://pub.dev/packages/flui)
+[![CI Status](https://github.com/rannie/flui/workflows/test/badge.svg)](https://github.com/Rannie/flui/actions)
+[![Documentation](https://img.shields.io/badge/read_the-docs-2196f3.svg)](https://flui.datoit.com/en/widgets/button.html)
+[![GitHub stars](https://img.shields.io/github/stars/Rannie/flui)](https://github.com/Rannie/flui/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Rannie/flui.svg)](https://github.com/Rannie/flui)
 [![GitHub license](https://img.shields.io/github/license/Rannie/flui.svg)](https://github.com/Rannie/flui/blob/master/LICENSE)
 
 <br/>
@@ -27,11 +27,11 @@
 
 ## 特性
 
-* 开箱即用的高质量 Flutter UI 组件 
+* 开箱即用的高质量 Flutter UI 组件
 * 完善的使用示例和文档
 * 细粒度非风格化的组件适用于不同类型的应用
 * 支持 [Dark Mode](https://abtfun.oss-cn-beijing.aliyuncs.com/img/2019-12-27-dark_shots.png) 以及 [RTL](https://abtfun.oss-cn-beijing.aliyuncs.com/img/2019-12-27-rtl_shots.png)
-* 动态化渲染支持模块 [Dynamic](https://www.flui.xin/dynamic.html)
+* 动态化渲染支持模块 [Dynamic](https://flui.datoit.com/dynamic.html)
 
 ## 兼容性
 
@@ -70,28 +70,28 @@ FLAppBarTitle(
 
 ## Widgets
 
-- [Button](https://www.flui.xin/widgets/button.html)
-- [Label](https://www.flui.xin/widgets/label.html)
-- [Toast](https://www.flui.xin/widgets/toast.html)
-- [Bubble](https://www.flui.xin/widgets/bubble.html)
-- [Input](https://www.flui.xin/widgets/input.html)
-- [Avatar](https://www.flui.xin/widgets/avatar.html)
-- [Badge](https://www.flui.xin/widgets/badge.html)
-- [Image](https://www.flui.xin/widgets/image.html)
-- [CountStepper](https://www.flui.xin/widgets/counter.html)
-- [AppBar](https://www.flui.xin/widgets/appbar.html)
-- [NoticeBar](https://www.flui.xin/widgets/notice-bar.html)
-- [Empty](https://www.flui.xin/widgets/empty.html)
-- [Skeleton](https://www.flui.xin/widgets/skeleton.html)
-- [BottomSheet](https://www.flui.xin/widgets/bottom-sheet.html)
-- [List](https://www.flui.xin/widgets/list.html)
-- [Theme](https://www.flui.xin/widgets/theme.html)
+- [Button](https://flui.datoit.com/widgets/button.html)
+- [Label](https://flui.datoit.com/widgets/label.html)
+- [Toast](https://flui.datoit.com/widgets/toast.html)
+- [Bubble](https://flui.datoit.com/widgets/bubble.html)
+- [Input](https://flui.datoit.com/widgets/input.html)
+- [Avatar](https://flui.datoit.com/widgets/avatar.html)
+- [Badge](https://flui.datoit.com/widgets/badge.html)
+- [Image](https://flui.datoit.com/widgets/image.html)
+- [CountStepper](https://flui.datoit.com/widgets/counter.html)
+- [AppBar](https://flui.datoit.com/widgets/appbar.html)
+- [NoticeBar](https://flui.datoit.com/widgets/notice-bar.html)
+- [Empty](https://flui.datoit.com/widgets/empty.html)
+- [Skeleton](https://flui.datoit.com/widgets/skeleton.html)
+- [BottomSheet](https://flui.datoit.com/widgets/bottom-sheet.html)
+- [List](https://flui.datoit.com/widgets/list.html)
+- [Theme](https://flui.datoit.com/widgets/theme.html)
 
 ## Dynamic 模块
 
 ![dynamic-post](https://abtfun.oss-cn-beijing.aliyuncs.com/img/2020-03-11-dynamic-poster-1.png)
 
-**FLUI-Dynamic** 为动态渲染模块，支持根据 json 字符串或者指定类型的对象来渲染视图，更多介绍及使用方法可以查看 [Dynamic](https://www.flui.xin/dynamic.html)
+**FLUI-Dynamic** 为动态渲染模块，支持根据 json 字符串或者指定类型的对象来渲染视图，更多介绍及使用方法可以查看 [Dynamic](https://flui.datoit.com/dynamic.html)
 
 ``` dart
 Widget buildDynamicWidget() {
@@ -118,5 +118,3 @@ Widget buildDynamicWidget() {
 ## License
 
 MIT License
-
-
