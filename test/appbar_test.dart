@@ -1,4 +1,4 @@
-import 'package:flui/src/widgets/appbar_title.dart';
+import 'package:datoit/src/widgets/appbar_title.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

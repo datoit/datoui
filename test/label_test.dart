@@ -1,5 +1,5 @@
-import 'package:flui/flui.dart';
-import 'package:flui/src/widgets/copyable_label.dart';
+import 'package:datoit/datoit.dart';
+import 'package:datoit/src/widgets/copyable_label.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';

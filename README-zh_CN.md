@@ -2,12 +2,12 @@
 
 <br />
 <p align="center">
-    <a href="https://flui.xin">
+    <a href="https://flui.datoit.com">
         <img width="200" src="https://abtfun.oss-cn-beijing.aliyuncs.com/img/2019-12-18-Artboard.png">
     </a>
 </p>
 
-<h1 align="center">FLUI</h1>
+<h1 align="center">DATOIT</h1>
 
 <div align="center">
 
@@ -35,7 +35,7 @@
 
 ## 兼容性
 
-**FLUI** 在多端具有良好的兼容性，框架会一直基于 *Flutter Stable Channel* 开发。
+**DATOIT** 在多端具有良好的兼容性，框架会一直基于 *Flutter Stable Channel* 开发。
 
 目前支持 *v1.17* 及以上。
 
@@ -46,7 +46,7 @@
 
 ```yaml
 dependencies:
-  flui: 0.9.2
+  datoit: 0.0.1
 ```
 
 然后运行 `flutter pub get` 下载依赖。
@@ -56,7 +56,7 @@ dependencies:
 依赖安装完成后直接引入组件。
 
 ```dart
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 
 // in somewhere
 FLAppBarTitle(
@@ -91,7 +91,7 @@ FLAppBarTitle(
 
 ![dynamic-post](https://abtfun.oss-cn-beijing.aliyuncs.com/img/2020-03-11-dynamic-poster-1.png)
 
-**FLUI-Dynamic** 为动态渲染模块，支持根据 json 字符串或者指定类型的对象来渲染视图，更多介绍及使用方法可以查看 [Dynamic](https://flui.datoit.com/dynamic.html)
+**DATOIT-Dynamic** 为动态渲染模块，支持根据 json 字符串或者指定类型的对象来渲染视图，更多介绍及使用方法可以查看 [Dynamic](https://flui.datoit.com/dynamic.html)
 
 ``` dart
 Widget buildDynamicWidget() {
@@ -107,10 +107,10 @@ Widget buildDynamicWidget() {
 
 ## Contributing
 
-**FLUI** 还需要更多的组件以及功能，欢迎大家参照下面的原则提交代码或者 issue:
+**DATOIT** 还需要更多的组件以及功能，欢迎大家参照下面的原则提交代码或者 issue:
 
 * 提交新组件的分支请以 *'feature-'* + 组件名称命名，修复问题的则需要以 *'bugfix-'* 为前缀
-* 尽可能是通用的组件，如果组件很少见或者不确定需不需要可以在 [FLUI issue](https://github.com/Rannie/flui/issues) 中提一个以 *\[feature\]* 开头的 issue 进行讨论
+* 尽可能是通用的组件，如果组件很少见或者不确定需不需要可以在 [FLUI issue](https://github.com/datoit/datoui/issues) 中提一个以 *\[feature\]* 开头的 issue 进行讨论
 * 新组件的 API 设计尽可能规范易读，贴合 Flutter 自带组件的命名，使用规则
 * 请在属性和方法上注释表明如何使用，以便于更新到文档和示例中
 * Git 提交文案请以 `feat|fix|docs|style|refactor|perf|test|workflow|ci|chore|types:` 为前缀。

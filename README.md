@@ -35,7 +35,7 @@ English | [简体中文](https://github.com/datoit/datoui/blob/master/README-zh_
 
 ## Compatibility
 
-**FLUI** has good compatibility on multiple clients, and the framework will be developed based on Flutter Stable Channel.
+**DATOIT** has good compatibility on multiple clients, and the framework will be developed based on Flutter Stable Channel.
 
 Currently supports *v1.17.0* .
 
@@ -45,7 +45,7 @@ Currently supports *v1.17.0* .
 
 ```yaml
 dependencies:
-  flui: 0.9.2
+  datoit: 0.0.1
 ```
 
 Then run `flutter pub get` to download the dependencies.
@@ -55,7 +55,7 @@ Then run `flutter pub get` to download the dependencies.
 After the dependency installed, you can directly import the widget.
 
 ```dart
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 
 // in somewhere
 FLAppBarTitle(
@@ -89,7 +89,7 @@ FLAppBarTitle(
 
 ![dynamic-post](https://abtfun.oss-cn-beijing.aliyuncs.com/img/2020-03-11-dynamic-poster-1.png)
 
-**FLUI-Dynamic** is a dynamic rendering module that supports rendering widgets based on json strings or objects of a specified type. For more introduction and usage, please see [Dynamic](https://flui.datoit.com/en/dynamic.html)
+**DATOIT-Dynamic** is a dynamic rendering module that supports rendering widgets based on json strings or objects of a specified type. For more introduction and usage, please see [Dynamic](https://flui.datoit.com/en/dynamic.html)
 
 ``` dart
 Widget buildDynamicWidget() {
@@ -108,7 +108,7 @@ Widget buildDynamicWidget() {
 Principles:
 
 * Branches that submit new widgets should be named *'feature-'* + widget name. Fixing issues need to be prefixed with *'bugfix-'*
-* The submitted widgets need to be general. If the widget is rare or not sure whether it needs to be added to **FLUI**, you can raise a [issue](https://github.com/Rannie/flui/issues) which starts with *\[feature\]* for discussion
+* The submitted widgets need to be general. If the widget is rare or not sure whether it needs to be added to **DATOIT**, you can raise a [issue](https://github.com/datoit/datoui/issues) which starts with *\[feature\]* for discussion
 * The API design of the new widget is as standard and readable as possible, following the naming and usage rules of Flutter's official widgets.
 * Please comment above properties and methods how to use it so that I can add to the documentation and examples.
 * Commit messages: prefix with `feat | fix | docs | style | refactor | perf | test | workflow | ci | chore | types:`.

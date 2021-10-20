@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flui/src/widgets/auto_complete.dart';
+import 'package:datoit/src/widgets/auto_complete.dart';
 import 'test_common.dart';
 
 void main() {
