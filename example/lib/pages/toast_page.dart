@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 import '../util.dart';
 
 class ToastPage extends StatefulWidget {

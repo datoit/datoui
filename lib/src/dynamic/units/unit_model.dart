@@ -1,8 +1,8 @@
-import 'package:flui/src/common/tools.dart';
+import 'package:datoit/src/common/tools.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:flutter/material.dart';
-import 'package:flui/src/dynamic/units/unit_constant.dart';
-import 'package:flui/src/dynamic/action/action.dart';
+import 'package:datoit/src/dynamic/units/unit_constant.dart';
+import 'package:datoit/src/dynamic/action/action.dart';
 
 part 'unit_model.g.dart';
 

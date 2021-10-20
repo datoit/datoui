@@ -1,5 +1,5 @@
 import 'page_util.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 import 'package:flutter/material.dart';
 
 class SkeletonPage extends StatefulWidget {

@@ -1,5 +1,5 @@
 import '../json_strings.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 import 'package:flutter/material.dart';
 
 class ContainerEffectPage extends StatefulWidget {

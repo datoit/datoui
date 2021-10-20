@@ -8,7 +8,7 @@ import 'pages/dyimage_page.dart';
 import 'pages/dydemo_home_page.dart';
 import 'pages/dydemo_detail_page.dart';
 import 'package:flutter/material.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 
 class DynamicPage extends StatefulWidget {
   static const String routeName = '/dynamic';

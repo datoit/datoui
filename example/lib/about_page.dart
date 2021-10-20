@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 import 'util.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -15,7 +15,7 @@ class AboutPageState extends State<AboutPage> {
         SizedBox(height: 60),
         Image.asset('assets/logo_trans.png', scale: 3.4),
         SizedBox(height: 10),
-        Text('FLUI',
+        Text('DATOIT',
             style: TextStyle(
                 fontSize: 30, fontWeight: FontWeight.w500, letterSpacing: 6)),
         SizedBox(height: 45),
@@ -84,7 +84,7 @@ class AboutPageState extends State<AboutPage> {
                       ? Icons.keyboard_arrow_left
                       : Icons.keyboard_arrow_right),
                   onTap: () {
-                    const siteUrl = 'https://www.flui.xin/en/';
+                    const siteUrl = 'https://flui.datoit.com/en/';
                     canLaunch(siteUrl).then((canOpen) {
                       launch(siteUrl, forceSafariVC: false);
                     });
@@ -97,7 +97,7 @@ class AboutPageState extends State<AboutPage> {
                       ? Icons.keyboard_arrow_left
                       : Icons.keyboard_arrow_right),
                   onTap: () {
-                    const siteUrl = 'https://github.com/Rannie/flui';
+                    const siteUrl = 'https://github.com/datoit/datoui';
                     canLaunch(siteUrl).then((canOpen) {
                       launch(siteUrl, forceSafariVC: false);
                     });

@@ -1,7 +1,7 @@
 import 'page_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 
 class LabelPage extends StatefulWidget {
   static const String routeName = '/label';
@@ -50,7 +50,7 @@ class _LabelPageState extends State<LabelPage> {
             ),
             SizedBox(height: 10),
             FLMarqueeLabel(
-              text: 'Notice: FLUI is a widget kit for Google Flutter',
+              text: 'Notice: DATOIT is a widget kit for Google Flutter',
               style: TextStyle(color: Colors.blueAccent, fontSize: 16),
               velocity: 1,
               space: 150,

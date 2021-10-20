@@ -2,7 +2,7 @@ import 'dart:collection';
 
 import 'package:flutter/cupertino.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 
 part 'action.g.dart';
 

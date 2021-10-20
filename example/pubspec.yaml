@@ -23,7 +23,7 @@ dependencies:
   shared_preferences: ^0.5.6+1
   url_launcher: ^5.4.1
 
-  flui:
+  datoit:
     path: ../
 
   # The following adds the Cupertino Icons font to your application.

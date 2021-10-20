@@ -179,7 +179,7 @@ class HomePageState extends State<HomePage> {
     Color bgColor = Theme.of(context).backgroundColor;
     return Scaffold(
         appBar: AppBar(
-          title: Text('FLUI', style: TextStyle(letterSpacing: 4)),
+          title: Text('Widgets', style: TextStyle(letterSpacing: 1)),
           centerTitle: true,
         ),
         body: Container(

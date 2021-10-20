@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../json_strings.dart';
 

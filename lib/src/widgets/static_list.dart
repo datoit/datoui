@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flui/src/widgets/flat_button.dart';
-import 'package:flui/src/widgets/list_tile.dart';
+import 'package:datoit/src/widgets/flat_button.dart';
+import 'package:datoit/src/widgets/list_tile.dart';
 
 enum FLStaticListCellType { normal, button, customization }
 

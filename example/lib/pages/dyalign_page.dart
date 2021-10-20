@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 import '../json_strings.dart';
 
 class AlignLayoutPage extends StatefulWidget {

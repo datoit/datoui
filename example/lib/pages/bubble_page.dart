@@ -1,5 +1,5 @@
 import 'page_util.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 import 'package:flutter/material.dart';
 
 class BubblePage extends StatefulWidget {
@@ -47,7 +47,7 @@ class _BubblePageState extends State<BubblePage> {
                     width: tWidth,
                     padding: EdgeInsets.symmetric(horizontal: 5, vertical: 8),
                     child: Text(
-                        'Hi, I\'m FLUI, a widget kit for Google Flutter.',
+                        'Hi, I\'m DATOIT, a widget kit for Google Flutter.',
                         style: textStyle,
                         softWrap: true),
                   )),

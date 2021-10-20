@@ -37,7 +37,7 @@ import 'package:flutter/services.dart';
 import 'pages/dydemo_home_page.dart';
 import 'pages/dydemo_detail_page.dart';
 import 'style/theme.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 
 void main() {
   runApp(MyApp());
@@ -127,7 +127,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
         textDirection: Util.textDirection);
 
     return MaterialApp(
-        title: 'FLUI',
+        title: 'DATOIT',
         debugShowCheckedModeBanner: false,
         themeMode: themeMode,
         theme: kLightTheme,

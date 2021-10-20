@@ -3,7 +3,7 @@ import 'hints_empty_page.dart';
 import 'image_hints_empty_page.dart';
 import 'loading_empty_page.dart';
 import 'package:flutter/material.dart';
-import 'package:flui/flui.dart';
+import 'package:datoit/datoit.dart';
 
 class EmptyPage extends StatefulWidget {
   static const String routeName = '/empty';
