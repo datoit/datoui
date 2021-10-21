@@ -35,7 +35,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'pages/dydemo_home_page.dart';
+import 'pages/index/home_page.dart';
 import 'pages/dydemo_detail_page.dart';
+import 'pages/dypage_query_interface.dart';
 import 'style/theme.dart';
 import 'package:datoit/datoit.dart';
 
@@ -163,7 +165,9 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
           DyButtonPage.routeName: (context) => DyButtonPage(),
           DyImagePage.routeName: (context) => DyImagePage(),
           DyHomeDemo.routeName: (context) => DyHomeDemo(),
-          DyDetailDemo.routeName: (context) => DyDetailDemo()
+          DyDetailDemo.routeName: (context) => DyDetailDemo(),
+          DyQueryInterface.routeName: (context) => DyQueryInterface(),
+          DtHome.routeName: (context) => DtHome(),
         },
         builder: (BuildContext context, Widget child) {
           return FLToastProvider(
@@ -190,25 +194,30 @@ class HomeTab extends StatefulWidget {
 
 class _HomeTabState extends State<HomeTab> {
   int _currentIndex = 0;
-  List pages = [HomePage(), DynamicPage(), AboutPage()];
+  List pages = [DtHome(), HomePage(), DynamicPage(), AboutPage()];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,//超过3个必须设置type
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            title: new Container()
+          ),
+          BottomNavigationBarItem(
             icon: Icon(Icons.apps),
-            title: Text('widgets'),
+            title: new Container()
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.aspect_ratio),
-            title: Text('dynamic'),
+            title: new Container()
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.info_outline),
-            title: Text('about'),
+            title: new Container()
           )
         ],
         currentIndex: _currentIndex,

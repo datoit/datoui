@@ -7,6 +7,7 @@ import 'pages/dybutton_page.dart';
 import 'pages/dyimage_page.dart';
 import 'pages/dydemo_home_page.dart';
 import 'pages/dydemo_detail_page.dart';
+import 'pages/dypage_query_interface.dart';
 import 'package:flutter/material.dart';
 import 'package:datoit/datoit.dart';
 
@@ -62,6 +63,11 @@ class _DynamicPageState extends State<DynamicPage> {
             title: 'Extend GitHub',
             onTap: () => Navigator.pushNamed(
                 context, DyHomeDemo.routeName)
+        ),
+        FLStaticItemData(
+            title: 'Query Interface',
+            onTap: () => Navigator.pushNamed(
+                context, DyQueryInterface.routeName)
         ),
         FLStaticItemData(
             title: 'Google Drive',

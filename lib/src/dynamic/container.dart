@@ -4,6 +4,7 @@ import 'package:datoit/src/dynamic/util/logger.dart';
 import 'package:flutter/material.dart';
 import 'package:datoit/src/dynamic/render_parser.dart';
 import 'package:datoit/src/dynamic/units/unit_model.dart';
+import 'package:dio/dio.dart';
 
 /// The container interface of dynamic widget
 class FLDyContainer extends StatefulWidget {
@@ -11,7 +12,8 @@ class FLDyContainer extends StatefulWidget {
     Key key,
     this.placeholder,
     this.jsonObject,
-  })  : assert(placeholder != null || jsonObject != null),
+    this.jsonUrl,
+  })  : assert(placeholder != null || (jsonObject != null || jsonUrl != null) ),
         super(key: key) {
     FLDyLogger.log('initial dynamic container');
     FLDyLogger.logStartTime();
@@ -19,6 +21,7 @@ class FLDyContainer extends StatefulWidget {
 
   final Widget placeholder;
   final dynamic jsonObject;
+  final dynamic jsonUrl;
 
   @override
   State<FLDyContainer> createState() => FLDyContainerState();
@@ -30,17 +33,30 @@ class FLDyContainerState extends State<FLDyContainer> {
   @override
   void initState() {
     super.initState();
-    if (widget.jsonObject != null) {
-      FLDyLogger.logStartTime();
-      FLDyUnitModel unitModel = processJsonObject(widget.jsonObject);
-      FLDyLogger.logEndTime('serialization');
-      FLDyLogger.logStartTime();
-      _renderContent = FLDyRenderParser.markupContent(unitModel);
-      FLDyLogger.logEndTime('markup content');
+
+    if (widget.jsonUrl != null) {
+      getUrlData(widget.jsonUrl);
+    }else{
+      if (widget.jsonObject != null) {
+        FLDyLogger.logStartTime();
+        FLDyUnitModel unitModel = processJsonObject(widget.jsonObject);
+        FLDyLogger.logEndTime('serialization');
+        FLDyLogger.logStartTime();
+        _renderContent = FLDyRenderParser.markupContent(unitModel);
+        FLDyLogger.logEndTime('markup content');
+      }
     }
+
     WidgetsBinding.instance.addPostFrameCallback((_) {
       FLDyLogger.logEndTime('total');
     });
+  }
+
+  void getUrlData(dynamic jsonUrl) async {
+    FLDyLogger.logStartTime();
+    Response response = await Dio().get(jsonUrl);
+    FLDyLogger.logEndTime('query interface');
+    loadJson(response.data.toString());
   }
 
   FLDyUnitModel processJsonObject(dynamic jsonObj) {
