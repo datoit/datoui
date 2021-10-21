@@ -419,6 +419,9 @@ ImageRepeat flStringToImageRepeat(String imageRepeat) {
     case FLDyImageRepeatType.repeatY:
       ir = ImageRepeat.repeatY;
       break;
+    default:
+      ir = ImageRepeat.noRepeat;
+      break;
   }
   return ir;
 }
